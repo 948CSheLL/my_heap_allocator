@@ -19,8 +19,8 @@
 typedef unsigned int uint;
 
 typedef struct node_t {
-    uint hole;
-    uint size;
+    uint hole;              // 块是否空闲
+    uint size;              // 块的大小
     struct node_t* next;
     struct node_t* prev;
 } node_t;
